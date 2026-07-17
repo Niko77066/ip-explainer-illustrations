@@ -1,0 +1,26 @@
+schema_version: "1"
+distribution: "shareable-skill"
+official_images_bundled: user-authorized-first-party-subset
+generated_assets_allowed: true
+authorized_user_assets_allowed: true
+authorization_record: "Asset-library owner asserted redistribution authorization in this conversation on 2026-07-16 and 2026-07-17."
+bundled_reference_library: "assets/authorized-reference-library/"
+collection_manifest: "references/authorized-reference-sources.json"
+collection_script: "scripts/collect_reference_library.py"
+families:
+  - "pop-mart"
+  - "sanrio"
+  - "chiikawa"
+  - "peanuts"
+  - "moomin"
+  - "jellycat"
+  - "mbti-16personalities"
+required_per_exact_character_version:
+  - "front"
+  - "source-and-rights-note"
+recommended_per_exact_character_version:
+  - "three-quarter"
+required_per_style_version:
+  - "style-master"
+  - "source-or-generation-note"
+fallback_style: "default-sketch"

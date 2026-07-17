@@ -1,0 +1,4 @@
+interface:
+  display_name: "IP 角色解释组图"
+  short_description: "选择七大 IP 家族，用身份和动画画风双锚点生成统一组图"
+  default_prompt: "Use $ip-explainer-illustrations 先选择七大 IP 家族与角色，再匹配对应动画画风，用 GPT-image-2 生成身份和视觉世界一致的解释组图。"
